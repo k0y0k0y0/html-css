@@ -1,0 +1,165 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: #505050;
+}
+h1, h2{
+  color: #A26C54;
+}
+/*トップバナー*/
+#top-baner{
+  width: 100%;
+  height: 600px;
+}
+/*ヘッダー*/
+header{
+  height: 70px;
+  overflow: hidden;
+}
+header h1{
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  width: 250px;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  padding: 0 20px;
+  color: #505050;
+}
+/*ナビゲーション*/
+#top-nav{
+  float: right;
+  height: 50px;
+  margin: 10px 40px;
+}
+#top-nav ul{
+  list-style: none;
+  overflow: hidden;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+#top-nav ul li{
+  float: left;
+  line-height: 50px;
+}
+li a{
+  text-decoration: none;
+  padding: 10px 15px;
+}
+/*横幅*/
+.site-width{
+  margin: 100px 55px;
+}
+/*コンテンツ*/
+section h1.title{
+  width: 110px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+section p.text{
+  display: block;
+  width: 350px;
+  height: 50px;
+  text-align: center;
+  margin: 50px auto;
+}
+/*about*/
+#about{
+  overflow: hidden;
+}
+.about-box{
+  height: 450px;
+  width: 570px;
+}
+.left-box{
+  float: left;
+}
+.right-box{
+  float: right;
+}
+.left-box img{
+  width: 100%;
+  height: 100%;
+}
+.about-panel{
+  height: 150px;
+}
+.about-panel h2{
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+/*works*/
+#works{
+  overflow: hidden;
+}
+.works-panel{
+  width: 370px;
+  height: 370px;
+  float: left;
+  margin-right: 30px;
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.works-panel img{
+  width: 100%;
+}
+.last-panel{
+  margin-right: 0;
+}
+.works-panel p{
+  padding: 0 20px;
+}
+/*skills*/
+#skills{
+  overflow: hidden;
+}
+.skills-panel{
+  width: 370px;
+  height: 230px;
+  float: left;
+  margin-right: 30px;
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  padding: 14px;
+}
+.skills-panel:last-child{
+  margin-right: 0;
+}
+.skills-panel h2{
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+.skills-panel p{
+  margin-bottom: 14px;
+}
+/*フッター*/
+footer{
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  background: #C6A394;
+}
+/*フォーム*/
+form{
+  width: 570px;
+  margin: 0 auto;
+}
+input[type="text"]{
+  width: 100%;
+}
+textarea{
+  width: 100%;
+}
+input[type="submit"]{
+  width: 170px;
+}
